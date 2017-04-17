@@ -1,7 +1,30 @@
+@font-face {
+    font-family: flamaBold;
+    src: url(../fonts/FlamaCondensed-Bold.otf);
+}
+
 body {
 	background-color: #E4E4E3;
 }
 
 .container {
 	background-color: #fff;
+}
+
+h1, h2 {
+	font-family: flamaBold;
+	color: #000;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1;
+}
+
+h1 small {
+	color: #000;
+}
+
+.core-blue {
+	color: #00A3DA;
 }
