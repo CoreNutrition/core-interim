@@ -7,24 +7,43 @@ body {
 	background-color: #E4E4E3;
 }
 
-.container {
-	background-color: #fff;
-}
+/*.container.video-hero {
+	padding: 0;
+}*/
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: flamaBold;
 	color: #000;
 }
 
-h1 {
+h2 {
 	font-size: 30px;
 	line-height: 1;
+	text-transform: uppercase;
 }
 
-h1 small {
+h2 small {
 	color: #000;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.container.homepage-section {
+	background-color: #fff;
+	padding: 25px 50px;
+}
+
+.lead.homepage-body {
+	font-weight: 500;
 }
 
 .core-blue {
 	color: #00A3DA;
 }
+
+
+
