@@ -53,6 +53,9 @@ img.bordered {
 	border: 1px solid #eee;
 }
 
+.curly-quote {
+	font-family: Georgia;
+}
 
 @media (max-width: 767px) {
 
