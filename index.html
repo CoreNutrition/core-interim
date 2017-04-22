@@ -81,7 +81,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <p class="lead homepage-body">
-            Ellie Goulding has partnered with CORE<sup>&#174;</sup> water for a new campaign about staying “True To The Core.” <!--<a href="#">Find out more about the partnership &#8594;</a>-->
+            Ellie Goulding has partnered with CORE<sup>&#174;</sup> water for a new campaign about staying “True To The Core.” <a href="http://people.com/style/ellie-goulding-no-shower-after-boxing/" target="_blank" onclick="return trackOutboundLink('http://people.com/style/ellie-goulding-no-shower-after-boxing/', true)">Find out more about the partnership &#8594;</a>
           </p>
         </div>
       </div>
@@ -127,7 +127,7 @@
                 Core Hydration
               </h2>
               <p>
-                pH BALANCED WATER IN TUNE WITH YOUR BODY<br> ultra purified with electrolytes and minerals to match your body’s pH of 7.4.
+                pH BALANCED WATER IN TUNE WITH YOUR BODY<br> Ultra purified with electrolytes and minerals to match your body’s pH of 7.4.
               </p>
 
               <img class="img-responsive" src="img/core-hydration.jpg" />
@@ -185,6 +185,18 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-53712018-3','auto');ga('send','pageview');
+        </script>
+        <script>
+        	var trackOutboundLink = function(url, isExternal) {
+        		var params = {};
+    			if (!isExternal) {
+        			params.hitCallback = function () {
+            			document.location = url;
+        			}
+    			}
+    			ga('send', 'event', 'outbound', 'click', url, params);
+    			return isExternal;
+        	}
         </script>
     </body>
 </html>

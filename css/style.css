@@ -57,13 +57,14 @@ img.bordered {
 	font-family: Georgia;
 }
 
-a, a:link, a:focus, a:active, a:visited, a:hover {
+a, a:link, a:focus, a:active, a:visited {
 	text-decoration:none;
 	border-bottom:2px solid #00aeef;
 	color:#444;
 }
 a:hover {
 	border-bottom:2px solid #19468d;
+	color:#19468d;
 }
 a.no-style {
 	border-bottom:none;
