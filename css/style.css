@@ -70,6 +70,68 @@ a.no-style {
 	border-bottom:none;
 }
 
+
+
+
+
+
+/* NEW ELLIE STYLES*/
+
+#ellie_header {
+	background-image: url('../img/hero-header-ellie.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	margin-bottom: 60px;
+}
+
+#ellie_header_content {
+	background-color: rgba(255,255,255,0);
+}
+
+.btn.contest-enter {
+	background-color: #00aeef;
+	border: none;
+	border-radius: 0;
+	font-family: flamaBold;
+	color: #fff;
+	font-size: 20px;
+    letter-spacing: 0.015rem;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+
+
+/* END NEW ELLIE STYLES */
+
+
+
+
+
+
+@media (max-width: 575px) {
+	#ellie_header_content {
+		background-color: rgba(255,255,255,0.5);
+		text-align: center;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	#ellie_header_content {
+		background-color: rgba(255,255,255,0.5);
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
+
 @media (max-width: 990px) {
 
 	.lead.homepage-body {
@@ -115,6 +177,21 @@ a.no-style {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
