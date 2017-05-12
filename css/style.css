@@ -75,6 +75,16 @@ a.no-style {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* NEW ELLIE STYLES*/
 
 #ellie_header {
@@ -100,17 +110,12 @@ a.no-style {
     line-height: 1.1;
 }
 
-
-
-
-
-
-
-/* END NEW ELLIE STYLES */
-
-
-
-
+#ellie_follow_bg {
+	background-image: url('../img/ellie-follow@2x.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0 30px;
+}
 
 
 @media (max-width: 575px) {
@@ -167,55 +172,7 @@ a.no-style {
 	}
 }
 
-@media (max-width: 768px) {
 
-}
-
-@media (max-width: 990px) {
-
-	.lead.homepage-body {
-		font-size: 14px;
-	    margin: 20px 0 25px;
-	}
-
-	p {
-		font-size: 14px;
-	}
-
-	h2 {
-		font-size: 26px;
-	}
-
-	h3 {
-		font-size: 22px;
-	}
-
-	.container.homepage-section {
-		padding: 15px 25px;
-	}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* END NEW ELLIE STYLES */
 
 
