@@ -114,7 +114,26 @@ a.no-style {
 	background-image: url('../img/ellie-follow@2x.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 20px 0 30px;
+	background-position: top center;
+	padding: 60px 0 140px;
+}
+
+#ellie_follow_bg i {
+	color: #00aeef;
+	font-size: 34px;
+}
+
+#ellie_follow_bg ul {
+	padding: 0;
+	margin: 60px auto;
+	display:table;
+    width:100%;
+}
+
+#ellie_follow_bg ul li {
+	display:table-cell;
+	list-style: none;
+	margin: 30px 28px;
 }
 
 
@@ -143,6 +162,26 @@ a.no-style {
 
 		direction: ltr;
 	}
+
+	#ellie_follow_bg {
+		padding: 20px 0 80px;
+		text-align: center;
+	}
+
+	#ellie_follow_bg ul {
+		display:inline;
+	}
+
+	#ellie_follow_bg ul li {
+		list-style: none;
+		display: inline;
+		margin: 30px 16px;
+	}
+
+	#ellie_follow_bg i {
+		font-size: 28px;
+		margin: 10px auto;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -169,6 +208,10 @@ a.no-style {
 		transform: rotate(-180deg);
 
 		direction: ltr;
+	}
+
+	#ellie_follow_bg {
+		text-align: center;
 	}
 }
 
